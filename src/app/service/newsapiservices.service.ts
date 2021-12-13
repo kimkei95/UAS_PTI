@@ -10,19 +10,19 @@ export class NewsapiservicesService {
   constructor(private _http:HttpClient) { }
 
   //newsapiurl
-  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=a03d3c3f493d43d4873969c15b6fbec6";
+  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=f7c02b1d127e48c6bd6c7d330d6cae1e";
   
   // technewsapiurl
-  techApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=a03d3c3f493d43d4873969c15b6fbec6"
+  techApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=f7c02b1d127e48c6bd6c7d330d6cae1e"
 
   //businessapiurl
-  businessApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a03d3c3f493d43d4873969c15b6fbec6"
+  businessApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=f7c02b1d127e48c6bd6c7d330d6cae1e"
 
   //businessapiurl
-  healthApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=a03d3c3f493d43d4873969c15b6fbec6"
+  healthApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=f7c02b1d127e48c6bd6c7d330d6cae1e"
 
   //businessapiurl
-  sportsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=a03d3c3f493d43d4873969c15b6fbec6"
+  sportsApiUrl = "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=f7c02b1d127e48c6bd6c7d330d6cae1e"
 
 
   //topheading()
